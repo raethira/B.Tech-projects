@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="AdminBL" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\AdminBL.cs</FileName>
+      <HashCode>AEBAACCAAAAEQEAAAAAAAAAggACBAAADjAADiAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityBL" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\CityBL.cs</FileName>
+      <HashCode>AAAAAIgBQQAgAAIAIAAAIAQAAAAAAAgEAgACACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\Connection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Country">
+    <Position X="17.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\CountryBL.cs</FileName>
+      <HashCode>AAAACIAQAAAgAAAgAEAAIAQACAAQABAEgAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IncomeBL">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\IncomeBL.cs</FileName>
+      <HashCode>AAACAACAAAAACAAAAAAAAAAAIAACAAIgAAACAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndustryBL" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\IndustryBL.cs</FileName>
+      <HashCode>AgACAAAAAAAAAAEAgAAAAUAAAAAAAAACAAACAAAFAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntrestBL" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\IntrestBL.cs</FileName>
+      <HashCode>AAADAAAAAAAAAAAAAAADAAAAAACAAEAAAQACAAAEAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OccupationBL">
+    <Position X="13.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\OccupationBL.cs</FileName>
+      <HashCode>AAICAAAAAAEAAEAAAAAAAAAAAAAAAAAAAQADAAAEABE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBL">
+    <Position X="19" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\StateBL.cs</FileName>
+      <HashCode>AAAAAgAAQSAgAAAAAAAAIBQAAAAQAEAEAAECBAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserAddressBookBL">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\UserAddressBookBL.cs</FileName>
+      <HashCode>GUCiQGAACGkTigCYiAEABECAAKMAQACCCkACZGjMREg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="UserAppointmentBL" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\UserAppointmentBL.cs</FileName>
+      <HashCode>AEACAiEAQAAAAAAAAAAAAAAAQAAAAUgEGAASAAEEACQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserDraftBoxBL">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\UserDraftBoxBL.cs</FileName>
+      <HashCode>AsiCICBAAAAAgAAAAIAAACYAAAgIAAABBABCAogEAiA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="UserFeedbackBL">
+    <Position X="15.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\UserFeedbackBL.cs</FileName>
+      <HashCode>AoCCAABAAgAAgAAACMACACIAAAgIAABBBAACAAAEAiA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="UserInboxBL">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\UserInboxBL.cs</FileName>
+      <HashCode>AkiCCCBACIAAgQAAAJCQACIAAIgIAAABBBACCigEAiA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="UserRegistrationBL">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientBL\UserRegistrationBL.cs</FileName>
+      <HashCode>BEBAAuCAGGEQCkCYQAGAAGSQgBdDACAGiUAD7yIhAAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="SMTPMailClient.DAL.SqlHelper">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientDAL\SQLHelper.cs</FileName>
+      <HashCode>AACAAACAAAAAACAEABAAAEAAgAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="SMTPMailClient.DAL.SqlHelper.SqlConnectionOwnership" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\SMTPMailClientDAL\SQLHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="SMTPMailClient.DAL.SqlHelperParameterCache">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\SMTPMailClientDAL\SQLHelper.cs</FileName>
+      <HashCode>AEAAAAAAAECAAIAAAAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

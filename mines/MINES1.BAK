@@ -1,0 +1,60 @@
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>
+#include<stdlib.h>
+int i,j;
+int a[10][10];
+void rect()
+{
+	  cleardevice();
+	for(i=50;i<250;i+=20)
+	{
+		for(j=50;j<250;j+=20)
+		{
+			rectangle(i,j,i+20,j+20);
+		}
+	}
+}
+void main()
+{
+	int i,j,cnt=0;
+	int gdriver = DETECT, gmode, errorcode;
+	initgraph(&gdriver, &gmode, "");
+	rect();
+
+	randomize();
+	for(i=0;i<10;i++)
+	{	for(j=0;j<10;j++)
+		{
+			a[i][j]=9;
+		}
+	}
+	while(1)
+       {	for(i=0;i<10;i++)
+		{
+			for(j=0;j<10;j++)
+			{	if(a[i][j]!=0)
+				{	a[i][j]=random(3);
+					if(a[i][j]==0)
+					{
+						cnt++;
+					}
+				}
+
+			}
+		 }
+		 if(cnt==10)
+		 {	break;
+		 }
+       }
+       for(i=0;i<10;i++)
+	{	for(j=0;j<10;j++)
+		{
+			printf("%d  ",a[i][j]);
+		}
+		printf("\n");
+	}
+
+
+	getch();
+}
